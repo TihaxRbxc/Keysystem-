@@ -1,1 +1,46 @@
-# Keysystem-
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Rbxc | Item giver", "Midnight")
+local Tab = Window:NewTab("Items")
+local Section = Tab:NewSection("Items by RXc team")
+Section:NewButton("Give  gun", "Omgg", function()
+ local item = game:GetObjects("rbxassetid://8640678553")[1]item.Parent = game.Players.LocalPlayer.Backpack
+    print("The Gun was Excuted!")
+end)
+Section:NewButton(" Give Figure Crucfix", "Figure crucfix", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBloxYT/ok/main/Okay"))();
+    print("The Figure Crucfix Was Excuetd!")
+end)
+Section:NewButton("Seek plushy but kawaii", "Omg for free?", function()
+ local Item = game:GetObjects("rbxassetid://12282095680")[1] Item.Parent = game.Players.LocalPlayer.Backpack
+    print("The Seek plush  Was Excuted!")
+end)
+Section:NewButton("Hallowen Crucifix", "", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))()
+    print("The Hallowen Crucifix Was Excuted!")
+end)
+Section:NewButton("Christmas Crucifix", ", ", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/PiotrekMineRoblox/Christmas-Crucifix/main/Christmas%20crucifix.lua"))()
+    print("The Christmas crucifix was Excuted!")
+end)
+Section:NewButton("Hamburger", "Uh?", function()
+ local Item = game:GetObjects("rbxassetid://5171865327")[1] Item.Parent = game.Players.LocalPlayer.Backpack
+    print("The Burger  Was Excuted!")
+end)
+Section:NewButton("Devil", "Uh?", function()
+ local Item = game:GetObjects("rbxassetid://11793072657")[1] Item.Parent = game.Players.LocalPlayer.Backpack
+    print("The Devil  Was Excuted!")
+end)
+Section:NewButton("Skeleton key", "Omg", function()
+ local item = game:GetObjects("rbxassetid://11697889137")[1]item.Parent = game.Players.LocalPlayer.Backpack
+    print("The skeleton Key was Excuted!")
+end)
+Section:NewButton("Ice Cream", "Cream", function()
+ local Item = game:GetObjects("rbxassetid://110887863")[1] Item.Parent = game.Players.LocalPlayer.Backpack 
+    print("The ice cream Was Excuted!")
+end)
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection(" Rbxc by RCx team")
+local Tab = Window:NewTab("Info")
+local Section = Tab:NewSection("info Rbxc about")
+local Section = Tab:NewSection("Version: 1.0")
+
